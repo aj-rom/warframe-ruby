@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
   # Dependencies
   spec.required_ruby_version = '>= 2.5.0'
   spec.add_dependency 'fast_underscore', '~> 0.3'
-  spec.add_dependency 'http', '~> 5.0'
+  spec.add_dependency 'http', '>= 5', '< 7'
   spec.add_dependency 'json', '~> 2.6'
 
   # Development Dependencies
